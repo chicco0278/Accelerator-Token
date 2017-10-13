@@ -102,8 +102,8 @@ contract PoSTokenStandard {
 contract Accelerator is ERC20,PoSTokenStandard,Ownable {
     using SafeMath for uint256;
 //Accelerator - Changed name of contract
-    string public name = "Accelerator";
-    string public symbol = "ACC";
+    string public name = "Chicco0278";
+    string public symbol = "CCC";
     uint public decimals = 18;
 
     uint public chainStartTime; //chain start time

@@ -157,16 +157,16 @@ contract Accelerator is ERC20,PoSTokenStandard,Ownable {
         chainStartTime = now;
         chainStartBlockNumber = block.number;
 
-        //Free Airdrop to Affiliates and Website Visitors - 200K
-        recipient = 0xFd3fBD60f3d394374d692C0cb7E3B90f064009b0;
+        //Free Airdrop to Affiliates and Website Visitors - 200K - Need to check this. How does the free airdrop works?
+        recipient = 0x;
         value = 2 * (10**23);
 
         //run
         balances[recipient] = value;
         transferIns[recipient].push(transferInStruct(uint128(value),_now));
 
-        //Core development Team - 50K
-        recipient = 0x347fdeCA4F170E59CE54AE63D2a841BCb39d3062;
+        //Core development Team - 50K - Input ETH Addr here
+        recipient = 0x;
         value = 5 * (10**22);
 
         //run
